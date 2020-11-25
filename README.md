@@ -9,11 +9,8 @@
 ## Top level Directory
 
     .
-    ├── checkpoint              # Contains training checkpoint
     ├── Data                    # Training Data (contains 3 Folders and Orientation.txt File)
-    ├── Test                    # Some Test Data from Google
     ├── Results                 # Screenshots of the training (Includes both VGG & CustomCNN results)
-    ├── dataloader.py           # Custom Data loading process for training
     ├── inference.py            # Running an Inference on an Image
     ├── model.py                # Network Architecture
     ├── environment.yml         # Contains all the required packages
