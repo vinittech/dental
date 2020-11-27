@@ -9,8 +9,8 @@
 ## Top level Directory
 
     .
-    ├── Data                    # Training Data (contains 3 Folders and Orientation.txt File)
-    ├── Results                 # Screenshots of the training (Includes both VGG & CustomCNN results)
+    ├── Data                    # Training Data (contains 2 Folders)
+    ├── Results                 # Screenshots of the training (Includes VGG training results)
     ├── inference.py            # Running an Inference on an Image
     ├── model.py                # Network Architecture
     ├── environment.yml         # Contains all the required packages
@@ -66,7 +66,6 @@ arguments:
   --lr                 # Learning Rate
   --threads            # Number of threads for data loader to use
   --rootDir            # Directory path to the training Data
-  --rotationTxt        #  Txt file on rotation of images
   --saveCheckpoint     #  Directory to store checkpoint
 
 ```
